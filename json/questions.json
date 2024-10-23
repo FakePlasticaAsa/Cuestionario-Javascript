@@ -1,0 +1,222 @@
+[
+    {
+        "question": "Which band released the album Armageddon?",
+        "options": [
+            "Aespa",
+            "(G)I-DLE",
+            "NewJeans",
+            "Kiss Of Life"
+        ],
+        "correctAnswer": "Aespa"
+    },
+    {
+        "question": "Who is the main singer of Radiohead?",
+        "options": [
+            "Colin Greenwood",
+            "Thom Yorke",
+            "Kim Chaewon",
+            "Chino Moreno"
+        ],
+        "correctAnswer": "Thom Yorke"
+    },
+    {
+        "question": "Which Radiohead song has the following lyrics: There are two colours in my head, what, what is that you tried to say?",
+        "options": [
+            "Wolf at the door",
+            "Kid A",
+            "Feral",
+            "Everything In Its Right Place"
+        ],
+        "correctAnswer": "Everything In Its Right Place"
+    },
+    {
+        "question": "Which group is based in the US?",
+        "options": [
+            "Radiohead",
+            "BABYMETAL",
+            "Kero Kero Bonito",
+            "Deftones"
+        ],
+        "correctAnswer": "Deftones"
+    },
+    {
+        "question": "Which group has a futuristic theme in their visuals and music?",
+        "options": [
+            "Lily Allen",
+            "Laufey",
+            "Aespa",
+            "Maximum The Hormone"
+        ],
+        "correctAnswer": "Aespa"
+    },
+    {
+        "question": "Which option was an Argentinian band?",
+        "options": [
+            "Sweet Trip",
+            "The Peggies",
+            "TV Girl",
+            "Soda Stereo"
+        ],
+        "correctAnswer": "Soda Stereo"
+    },
+    {
+        "question": "Which band was formed by Radiohead members Thom Yorke and Johnny Greenwood to pursue their musical experimentation outside their main band?",
+        "options": [
+            "Minami",
+            "Sweet Trip",
+            "Tally Hall",
+            "The Smile"
+        ],
+        "correctAnswer": "The Smile"
+    },
+    {
+        "question": "Which is a Japanese metal band?",
+        "options": [
+            "Maximum The Hormone",
+            "Ichiko Aoba",
+            "Korn",
+            "Kero Kero Bonito"
+        ],
+        "correctAnswer": "Maximum The Hormone"
+    },
+    {
+        "question": "Which is a Japanese citypop song?",
+        "options": [
+            "Whistle",
+            "4:00AM",
+            "Musica",
+            "Kininaru Ano Ko"
+        ],
+        "correctAnswer": "4:00AM"
+    },
+    {
+        "question": "Which is a Persona 5 Royal song?",
+        "options": [
+            "Pull the Trigger",
+            "Burn My Dread",
+            "Wake Up, Get Up, Get Out There",
+            "It's Going Down Now"
+        ],
+        "correctAnswer": "Wake Up, Get Up, Get Out There"
+    },
+    {
+        "question": "Which is not an Aespa album?",
+        "options": [
+            "Girls",
+            "MY WORLD",
+            "Lose Yourself",
+            "Drama"
+        ],
+        "correctAnswer": "Lose Yourself"
+    },
+    {
+        "question": "Who is the main vocalist of (G)I-DLE?",
+        "options": [
+            "Soyeon",
+            "Miyeon",
+            "Yuqi",
+            "Shuhua"
+        ],
+        "correctAnswer": "Soyeon"
+    },
+    {
+        "question": "Which band is known for blending electronic and rock music, similar to Radiohead?",
+        "options": [
+            "Muse",
+            "The 1975",
+            "Tame Impala",
+            "Foster the People"
+        ],
+        "correctAnswer": "Tame Impala"
+    },
+    {
+        "question": "What is the title of the song by MAXIMUM THE HORMONE used in the anime 'Death Note'?",
+        "options": [
+            "F",
+            "Zetsubou Billy",
+            "What's Up, People?!",
+            "Kyouran Hey Kids!!"
+        ],
+        "correctAnswer": "What's Up, People?!"
+    },
+    {
+        "question": "Which is a popular song from the video game 'Persona 5' that features upbeat jazz elements?",
+        "options": [
+            "Wake Up, Get Up, Get Out There",
+            "Last Surprise",
+            "Blooming Villain",
+            "Rivers in the Desert"
+        ],
+        "correctAnswer": "Last Surprise"
+    },
+    {
+        "question": "Which of the following is a song by BABYMETAL?",
+        "options": [
+            "Gimme Chocolate!!",
+            "Road of Resistance",
+            "Head Bangya!!",
+            "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+    },
+    {
+        "question": "Who is known as the lead singer of the band Aespa?",
+        "options": [
+            "Karina",
+            "Winter",
+            "Ningning",
+            "Giselle"
+        ],
+        "correctAnswer": "Karina"
+    },
+    {
+        "question": "Which is a Fiona Apple album?",
+        "options": [
+            "When the pawn...",
+            "OK Computer",
+            "In Rainbows",
+            "Diamond Eyes"
+        ],
+        "correctAnswer": "When the pawn..."
+    },
+    {
+        "question": "Which K-pop idol group has sung in the League of Legends music project K/DA?",
+        "options": [
+            "BLACKPINK",
+            "Stray Kids",
+            "(G)I-DLE",
+            "Twice"
+        ],
+        "correctAnswer": "(G)I-DLE"
+    },
+    {
+        "question": "Which is not a Nirvana song?",
+        "options": [
+            "Floyd the barber",
+            "School",
+            "Codex",
+            "Heart-shaped box"
+        ],
+        "correctAnswer": "Codex"
+    },
+    {
+        "question": "Which song is by Faye Webster?",
+        "options": [
+            "Right Side of My Neck",
+            "In Limbo",
+            "The Feels",
+            "Moonlight Sunshine"
+        ],
+        "correctAnswer": "Right Side of My Neck"
+    },
+    {
+        "question": "For what movie was the Kokyū album made for?",
+        "options": [
+            "The Grand Budapest Hotel",
+            "Harakiri",
+            "Coraline",
+            "All about Lily Chou-Chou"
+        ],
+        "correctAnswer": "All about Lily Chou-Chou"
+    }
+]

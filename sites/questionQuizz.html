@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Question Quiz</title>
+    <script src="../scripts/textQuizz.js" defer></script>
+    <style>
+
+
+        #main-container {
+            width: 100%;
+            max-width: 600px;
+        }
+
+        #quiz-container {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .quiz-container {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            min-height: 150px; /* Ensures consistent space */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .options div {
+            margin-bottom: 10px;
+        }
+
+        .submitAnswer {
+            display: block;
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 20px auto 0 auto; /* Centers the button */
+            font-size: 16px;
+        }
+
+        .submitAnswer:hover {
+            background-color: #333;
+        }
+
+        #score-container {
+            margin-top: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-container">
+        <div id="quiz-container">
+            <!-- Two quiz containers for two questions at once -->
+            <div class="quiz-container" id="question-1">
+                <form class="quiz-form">
+                    <div class="question-container">
+                        <p class="question"></p>
+                    </div>
+                    <div class="options"></div>
+                </form>
+            </div>
+            <div class="quiz-container" id="question-2">
+                <form class="quiz-form">
+                    <div class="question-container">
+                        <p class="question"></p>
+                    </div>
+                    <div class="options"></div>
+                </form>
+            </div>
+            <button type="button" class="submitAnswer">Submit</button>
+        </div>
+
+        <div id="score-container">
+            <p id="score"></p>
+        </div>
+    </div>
+</body>
+</html>

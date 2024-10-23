@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>musica quizz!!</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/gameSelector.css">
+
+    <script src="../scripts/concurso.js" defer></script>
+    <script src="../scripts/template.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+
+    <header id="header"></header>
+    <div class="divBtn">
+        <h1 id="usernameh1">Let's Start The Quizz!</h1>
+        <form id="userForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <button id="mostrarBtn">Save</button>
+        </form>
+        <p id="usernameWarning" style="height: 1rem"></p>
+    </div>
+    <div id="nuevoDiv">
+        <div id="quizzh1">
+            <h1>What game mode do you wanna play?</h1>
+        </div>
+
+        <div id="quizzSelector">
+            <div id="gameBtn">
+                <button id="textQuizz">Text</button>
+                <button id="audioQuizz">Audio</button>
+            </div>
+            <div id="gameInfo">
+                <p style="    margin-left: 30px;
+    margin-right: 30px; text-align: center;">In this game mode, you'll be quizzed about music, singers, bands etc...
+                    <br>
+                    You'll be asked 10 questions, with 4 possible answers.
+                </p>
+                <p style="margin-left: 30px;
+                margin-right: 30px; text-align:center;">Listen to a few seconds of a song, then try to guess it! You'll <br>
+                    get a larger piece of the song if you fail.</p>
+            </div>
+        </div>
+    </div>
+
+
+<div id="questionQuizz"></div>
+    
+    
+    <footer id="footer">
+    </footer>
+
+</body>
+
+</html>

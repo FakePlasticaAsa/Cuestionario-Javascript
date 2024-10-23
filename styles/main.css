@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Arimo", sans-serif;
+  color: #e7e7e7;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(160, 28, 28);
+  color: white;
+  min-height: 100vh; /* Asegura que el body ocupe al menos la altura de la ventana */
+}
+#nuevoDiv {
+  display: none;
+  padding: 10px;
+  margin-top: 10px;
+  align-items: column;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+    width: 16%;
+    height: auto;
+    max-width: 20%; /* Ensure the logo does not grow too large */
+  }
+
+
+/*Header Header Header Header*/
+
+.headerDiv {
+    display: flex;
+    justify-content: center; /* Center the logo in the middle */
+    align-items: center; /* Vertically center the items */
+    position: relative; /* Needed for absolute positioning of the username */
+    padding: 1%; /* You can adjust this as needed */
+  }
+header {
+  background-color: rgb(49, 49, 49);
+}
+  
+#displayUsername {
+    position: absolute; /* Position the username absolutely */
+    right: 10px; /* Adjust as needed to align with the right */
+    margin: 0; /* No margin to avoid increasing height */
+    padding: 0; /* No padding */
+    white-space: nowrap; /* Prevent wrapping */
+  }
+
+/*Footer*/
+
+footer {
+  background-color: rgb(49, 49, 49);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  align-items: flex-end;
+  margin-top: auto; 
+}
+
+footer p {
+  padding: 5px;
+}
+
+/*Botón*/
+
+#mostrarBtn:hover {
+  background-color: #181818;
+  transform: scale(1.05);
+}
+
+#mostrarBtn {
+  /*Add border (Grosor)*/
+  color: #ffffff;
+  height: auto;
+  background-color: #131313;
+  font-size: 25px;
+  font-weight: 50px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+
+.divBtn {
+  /*Background colour*/
+  align-items: center;
+  display: flex;
+  flex-direction: column; /* Alinea el contenido verticalmente */
+  flex: 1; /* Permite que este div ocupe el espacio disponible */
+  justify-content: center; /* Centra el contenido verticalmente */
+}
+
+input[type="text"] {
+  color: #000;
+  border: 1px solid #ccc; /* Borde del input */
+  border-radius: 4px; /* Esquinas redondeadas */
+  padding: 10px; /* Espaciado interno */
+  background-color: white; /* Color de fondo del input */
+  font-size: 20px;
+}
+
+input:focus {
+  border-color: #3498db; /* Cambia el color del borde al hacer foco */
+  outline: none; /* Elimina el borde de enfoque predeterminado */
+}
+
+#userForm {
+    display: flex;
+    flex-direction: column;
+}
+
+body div form button {
+    margin-top: 20px;
+}
+
+#usernameWarning {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#usernameh1 {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+#username {
+  margin-top: 20px;
+}
+

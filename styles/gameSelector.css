@@ -1,0 +1,52 @@
+#audioQuizz,
+#textQuizz {
+  /*BOTONES*/
+  color: #ffffff;
+  height: auto;
+  background-color: #131313;
+  font-size: 25px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  padding: 10px 10px;
+  border-radius: 15px;
+  margin-top: 70px;
+}
+
+#quizzh1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+#quizzSelector {
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+#quizzSelector button {
+    margin: 10px; /* Adds vertical space around each button */
+    flex: 1; /* Makes buttons take equal space */
+    padding: 10px; /* Adds padding inside the buttons */
+}
+
+#gameInfo {
+    text-align: center; /* Center the text in gameInfo */
+    margin-top: 20px; /* Space between buttons and game info */
+    justify-content: space-between;
+    display: flex;
+}
+
+#gameBtn {
+    justify-content: center;
+    display: flex;
+    gap: 420px;
+}
+
+
+#main-container {
+ display: none;
+ align-items: center;
+ justify-content: center;
+}
+
