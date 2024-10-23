@@ -1,21 +1,20 @@
 // Cambia esto
-const mostrarBtn = document.getElementById('mostrarBtn'); // Ahora apuntamos al botón
+const mostrarBtn = document.getElementById('mostrarBtn'); 
 const nuevoDiv = document.getElementById('nuevoDiv');
 
 
-// Escucha el evento de 'submit' del formulario
 document.getElementById('userForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Evita que se recargue la página
+    event.preventDefault(); 
 
     const usernameRegex = /^[a-zA-Z0-9]+$/;
 
     const username = document.getElementById('username').value;
 
-    if (usernameRegex.test(username) && username.length >= 3) { // Check if the username is not empty
+    if (usernameRegex.test(username) && username.length >= 3) { 
         const displayUsername = document.getElementById('displayUsername');
         displayUsername.textContent = `Good luck, ${username}!`;
-        nuevoDiv.style.display = 'flex'; // Muestra el nuevo div de gamemode selector
-        document.querySelector('.divBtn').style.display = 'none'; // Oculta el contenedor del formulario
+        nuevoDiv.style.display = 'flex'; 
+        document.querySelector('.divBtn').style.display = 'none'; 
 
 
     

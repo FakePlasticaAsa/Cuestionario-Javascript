@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   background-color: rgb(160, 28, 28);
   color: white;
-  min-height: 100vh; /* Asegura que el body ocupe al menos la altura de la ventana */
+  min-height: 100vh; 
 }
 #nuevoDiv {
   display: none;
@@ -24,7 +24,7 @@ body {
 .logo {
     width: 16%;
     height: auto;
-    max-width: 20%; /* Ensure the logo does not grow too large */
+    max-width: 20%; 
   }
 
 
@@ -32,21 +32,21 @@ body {
 
 .headerDiv {
     display: flex;
-    justify-content: center; /* Center the logo in the middle */
-    align-items: center; /* Vertically center the items */
-    position: relative; /* Needed for absolute positioning of the username */
-    padding: 1%; /* You can adjust this as needed */
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+    padding: 1%; 
   }
 header {
   background-color: rgb(49, 49, 49);
 }
   
 #displayUsername {
-    position: absolute; /* Position the username absolutely */
-    right: 10px; /* Adjust as needed to align with the right */
-    margin: 0; /* No margin to avoid increasing height */
-    padding: 0; /* No padding */
-    white-space: nowrap; /* Prevent wrapping */
+    position: absolute; 
+    right: 10px; 
+    margin: 0; 
+    padding: 0; 
+    white-space: nowrap; 
   }
 
 /*Footer*/
@@ -72,7 +72,7 @@ footer p {
 }
 
 #mostrarBtn {
-  /*Add border (Grosor)*/
+
   color: #ffffff;
   height: auto;
   background-color: #131313;
@@ -87,23 +87,23 @@ footer p {
   /*Background colour*/
   align-items: center;
   display: flex;
-  flex-direction: column; /* Alinea el contenido verticalmente */
-  flex: 1; /* Permite que este div ocupe el espacio disponible */
-  justify-content: center; /* Centra el contenido verticalmente */
+  flex-direction: column; 
+  flex: 1; 
+  justify-content: center;
 }
 
 input[type="text"] {
   color: #000;
-  border: 1px solid #ccc; /* Borde del input */
-  border-radius: 4px; /* Esquinas redondeadas */
-  padding: 10px; /* Espaciado interno */
-  background-color: white; /* Color de fondo del input */
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  padding: 10px; 
+  background-color: white; 
   font-size: 20px;
 }
 
 input:focus {
-  border-color: #3498db; /* Cambia el color del borde al hacer foco */
-  outline: none; /* Elimina el borde de enfoque predeterminado */
+  border-color: #3498db; 
+  outline: none; 
 }
 
 #userForm {

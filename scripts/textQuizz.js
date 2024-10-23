@@ -1,5 +1,4 @@
-// Assuming 'username' is defined in another JS file globally, like this:
-// var username = "JohnDoe"; // Or dynamically assigned elsewhere
+
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -19,8 +18,8 @@ async function loadQuestions() {
             throw new Error('Network response was not ok');
         }
         questions = await response.json();
-        shuffleArray(questions); // Shuffle the questions
-        questions = questions.slice(0, 10); // Limit to 10 questions
+        shuffleArray(questions);
+        questions = questions.slice(0, 10);
         displayQuestions(); 
     } catch (error) {
         console.error('Error fetching questions:', error);
@@ -28,7 +27,6 @@ async function loadQuestions() {
 }
 
 function displayQuestions() {
-    // Display two questions at a time
     displayQuestion(0, '#question-1');
     displayQuestion(1, '#question-2');
 }
@@ -60,7 +58,6 @@ function displayQuestion(offset, containerId) {
 }
 
 function checkAnswers() {
-    // Verify the answers of the two current questions
     let allQuestionsAnswered = true;
 
     for (let i = 0; i < 2; i++) {
@@ -79,7 +76,7 @@ function checkAnswers() {
     }
 
     if (allQuestionsAnswered) {
-        currentQuestionIndex += 2; // Increment by two since we're showing two questions
+        currentQuestionIndex += 2; 
         if (currentQuestionIndex < questions.length) {
             displayQuestions();
         } else {
@@ -89,7 +86,6 @@ function checkAnswers() {
 }
 
 function displayScore() {
-    // Assuming 'username' is declared globally in another JS file
     const scoreContainer = document.getElementById('score-container');
     scoreContainer.innerHTML = `<p>Your score: ${score} out of ${questions.length}</p>`;
 
@@ -101,7 +97,7 @@ function displayScore() {
     const downloadButton = document.createElement('button');
     downloadButton.textContent = 'Download Score';
     downloadButton.addEventListener('click', function() {
-        saveScoreToFile(username, score); // Use the global 'username' variable here
+        saveScoreToFile(username, score); 
     });
     scoreContainer.appendChild(downloadButton);
 }
@@ -118,19 +114,18 @@ function saveScoreToFile(username, score) {
 
     const a = document.createElement('a');
     a.href = url;
-    a.download = `${username}_score.json`; // File name includes the username
+    a.download = `${username}_score.json`; 
     document.body.appendChild(a);
     a.click();
-    document.body.removeChild(a); // Clean up the DOM
+    document.body.removeChild(a); 
 }
 
 function resetQuiz() {
     currentQuestionIndex = 0;
     score = 0;
-    document.getElementById('score-container').innerHTML = '<p>Score: 0</p>'; // Reset score display
-    loadQuestions(); // Reload the questions
+    document.getElementById('score-container').innerHTML = '<p>Score: 0</p>'; 
+    loadQuestions(); 
 }
 
-// Load the questions and set up the event listener for submit
 loadQuestions();
 document.querySelector('.submitAnswer').addEventListener('click', checkAnswers);
